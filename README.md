@@ -1,1 +1,4 @@
 # git_webpack_test
+
+1.package.json中的script会安装一定顺序寻找命令对应位置，本地的node_modules/.bin路径就在这个寻找清单中，所以无论是全局还是局部安装的Webpack，你都不需要写前面那指明详细的路径了。
+2.__dirname”是node.js中的一个全局变量，它指向当前执行脚本所在的目录
